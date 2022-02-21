@@ -18,6 +18,10 @@ func TestGreet(t *testing.T) {
 			result: "Hello, Paul, Ted\n",
 			items:  []string{"Paul", "Ted"},
 		},
+		{
+			result: "Hello, Paul, Ted, Zach\n",
+			items:  []string{"Paul", "Ted", "Zach"},
+		},
 	}
 
 	for _, st := range subTests {
